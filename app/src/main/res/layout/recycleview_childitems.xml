@@ -2,10 +2,10 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/_6sdp"
+    android:layout_margin="@dimen/_10sdp"
     app:cardCornerRadius="@dimen/_6sdp"
     android:id="@+id/noteContainerLayout"
-    android:elevation="@dimen/_8sdp"
+    android:elevation="@dimen/_6sdp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,15 +18,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Title"
+            android:textColor="@color/black"
+             android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_16sdp"
             />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/actual_note"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_8sdp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_2sdp"
             app:layout_constraintTop_toBottomOf="@id/NotesTitle"
             android:text="Note"
             />
@@ -37,6 +45,10 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/actual_note"
             android:text="Date"
+            android:textColor="@color/black"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_6sdp"
             />
 
 

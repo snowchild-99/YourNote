@@ -47,11 +47,12 @@
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edit_note_body"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="@dimen/_350sdp"
         app:layout_constraintTop_toBottomOf="@id/edit_note_title"
         android:hint="Enter Your Note Here"
         android:inputType="textMultiLine"
         android:background="@null"
+        android:gravity="top"
         android:layout_margin="@dimen/_10sdp"
         android:lineSpacingMultiplier="1.8"
         android:textSize="@dimen/_16ssp"
