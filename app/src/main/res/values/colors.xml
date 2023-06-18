@@ -2,4 +2,27 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+        <color name="note_background_color_1">#FF5722</color>
+        <color name="note_background_color_2">#3F51B5</color>
+        <color name="note_background_color_3">#009688</color>
+        <color name="note_background_color_4">#FFC107</color>
+        <color name="note_background_color_5">#E91E63</color>
+        <color name="note_background_color_6">#4CAF50</color>
+        <color name="note_background_color_7">#9C27B0</color>
+        <color name="note_background_color_8">#FF9800</color>
+        <color name="note_background_color_9">#607D8B</color>
+        <color name="note_background_color_10">#03A9F4</color>
+        <color name="note_background_color_11">#FFEB3B</color>
+        <color name="note_background_color_12">#795548</color>
+        <color name="note_background_color_13">#FF4081</color>
+        <color name="note_background_color_14">#00BCD4</color>
+        <color name="note_background_color_15">#CDDC39</color>
+        <color name="note_background_color_16">#8BC34A</color>
+        <color name="note_background_color_17">#9E9E9E</color>
+        <color name="note_background_color_18">#FF5722</color>
+        <color name="note_background_color_19">#3F51B5</color>
+        <color name="note_background_color_20">#009688</color>
+        <!-- Add more color resources as needed -->
+
 </resources>

@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/_6sdp"
     app:cardCornerRadius="@dimen/_6sdp"
+    android:id="@+id/noteContainerLayout"
     android:elevation="@dimen/_8sdp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/title"
+            android:id="@+id/NotesTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Title"
@@ -26,7 +27,7 @@
             android:id="@+id/actual_note"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintTop_toBottomOf="@id/NotesTitle"
             android:text="Note"
             />
 
